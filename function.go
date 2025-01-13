@@ -9,6 +9,13 @@ func getNumbers(a int , b int) (int,int){
 	mul := a*b
 	return sum,mul
 }
+
+func printSomething(){
+	fmt.Println("Hello")
+}
+func sayHello(name string){
+	fmt.Println("Hello",name)
+}
  func main(){
  a:=10
  b:=20
@@ -16,4 +23,6 @@ func getNumbers(a int , b int) (int,int){
 // fmt.Println(sum) 
  p,q := getNumbers(a,b)
  fmt.Println(p,q)
+ printSomething()
+ sayHello("nafi")
 }
